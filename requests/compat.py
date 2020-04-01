@@ -26,7 +26,7 @@ is_py2 = (_ver[0] == 2)
 is_py3 = (_ver[0] == 3)
 
 try:
-    import simplejson as json
+    import rapidjson as json
 except ImportError:
     import json
 
