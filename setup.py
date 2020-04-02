@@ -49,12 +49,12 @@ requires = [
 
 ]
 test_requirements = [
-    'pytest-httpbin==0.0.7',
+    'pytest-httpbin>=0.0.7,<1.0',
     'pytest-cov',
     'pytest-mock',
-    'pytest-xdist',
-    'PySocks>=1.5.6, !=1.5.7',
-    'pytest>=3'
+    'pytest-xdist<=1.25',
+    'PySocks>=1.5.6,!=1.5.7',
+    'pytest>=2.8.0,<=3.10.1'
 ]
 
 about = {}
